@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.suggestion-item {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+  list-style-type: none;
+}
+
+.name-details {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 14px;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .name-details {
+    font-size: 20px;
+  }
+}
+
+.btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.img {
+  height: 16px;
+  width: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .img {
+    height: 24px;
+    width: 24px;
+  }
+}
